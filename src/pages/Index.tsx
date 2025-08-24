@@ -10,7 +10,7 @@ export default function Index() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Icon name="Building2" className="text-primary" size={32} />
-            <span className="text-2xl font-bold text-secondary">ФедСтрой</span>
+            <span className="text-2xl font-bold text-secondary">Seti-Pro</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
@@ -284,7 +284,7 @@ export default function Index() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Icon name="Building2" className="text-primary" size={32} />
-                <span className="text-2xl font-bold">ФедСтрой</span>
+                <span className="text-2xl font-bold">Seti-Pro</span>
               </div>
               <p className="text-secondary-foreground/80">
                 Профессиональное строительство и подключение к федеральным торговым сетям по всей России
@@ -312,7 +312,7 @@ export default function Index() {
           </div>
           
           <div className="border-t border-secondary-foreground/20 mt-8 pt-8 text-center text-secondary-foreground/60">
-            <p>&copy; 2024 ФедСтрой. Все права защищены.</p>
+            <p>&copy; 2024 Seti-Pro. Все права защищены.</p>
           </div>
         </div>
       </footer>
