@@ -88,16 +88,7 @@ export default function Index() {
               </CardHeader>
             </Card>
             
-            <Card className="hover:shadow-lg transition-shadow">
-              <CardHeader>
-                <Icon name="MapPin" className="text-primary mb-4" size={48} />
-                <CardTitle>Работа по России</CardTitle>
-                <CardDescription>
-                  Реализация проектов в любом регионе России с надежными арендаторами
-                </CardDescription>
-              </CardHeader>
-            </Card>
-            
+
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Icon name="FileCheck" className="text-primary mb-4" size={48} />
