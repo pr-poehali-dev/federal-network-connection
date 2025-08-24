@@ -17,7 +17,7 @@ export default function Index() {
             <a href="#advantages" className="text-foreground hover:text-primary transition-colors">Преимущества</a>
             <a href="#contacts" className="text-foreground hover:text-primary transition-colors">Контакты</a>
           </nav>
-          <Button className="bg-primary hover:bg-primary/90">
+          <Button className="bg-primary hover:bg-primary/90" onClick={() => window.location.href = 'tel:+79002530077'}>
             Консультация
           </Button>
         </div>
@@ -36,11 +36,11 @@ export default function Index() {
                 Минимальная площадь от 400 кв.м. Полное соответствие требованиям сетей.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground" onClick={() => window.location.href = 'tel:+79002530077'}>
                   <Icon name="Phone" className="mr-2" size={20} />
                   Получить консультацию
                 </Button>
-                <Button variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary/10">
+                <Button variant="outline" size="lg" className="border-secondary text-secondary hover:bg-secondary/10" onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}>
                   <Icon name="FileText" className="mr-2" size={20} />
                   Узнать больше
                 </Button>
@@ -213,8 +213,8 @@ export default function Index() {
                       <Icon name="MapPin" className="text-primary" size={24} />
                     </div>
                     <div>
-                      <p className="font-semibold text-secondary">География работы</p>
-                      <p className="text-muted-foreground text-lg">Вся территория России</p>
+                      <p className="font-semibold text-secondary">Регионы работы</p>
+                      <p className="text-muted-foreground text-lg">Краснодарский край, Ростовская область, Москва</p>
                     </div>
                   </div>
                 </div>
@@ -260,6 +260,7 @@ export default function Index() {
               size="lg" 
               variant="outline" 
               className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+              onClick={() => window.location.href = 'tel:+79002530077'}
             >
               <Icon name="Phone" className="mr-2" size={20} />
               Позвонить сейчас
@@ -267,6 +268,7 @@ export default function Index() {
             <Button 
               size="lg" 
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
+              onClick={() => window.location.href = 'mailto:biznes0308@mail.ru'}
             >
               <Icon name="Mail" className="mr-2" size={20} />
               Написать email
@@ -304,7 +306,7 @@ export default function Index() {
               <div className="space-y-2 text-secondary-foreground/80">
                 <p>+7 (900) 253-00-77</p>
                 <p>biznes0308@mail.ru</p>
-                <p>Работаем по всей России</p>
+                <p>Краснодарский край, Ростовская область, Москва</p>
               </div>
             </div>
           </div>
