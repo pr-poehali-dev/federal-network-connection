@@ -32,8 +32,8 @@ export default function Index() {
                 Подключение к федеральным торговым сетям
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Строительство торговых помещений под ключ для Магнит, Пятерочка, Чижик, Перекресток. 
-                Полное соответствие требованиям федеральных сетей. Работаем по всей России.
+                Согласовываем участки и готовые помещения под федеральные сети: Магнит, Пятерочка, Чижик, Перекресток. 
+                Минимальная площадь от 400 кв.м. Полное соответствие требованиям сетей.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
@@ -63,7 +63,7 @@ export default function Index() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-secondary mb-4">Наши услуги</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Комплексные решения для подключения к федеральным торговым сетям
+              Согласование участков и помещений от 400 кв.м под федеральные торговые сети
             </p>
           </div>
           
@@ -71,9 +71,9 @@ export default function Index() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Icon name="Building" className="text-primary mb-4" size={48} />
-                <CardTitle>Строительство под ключ</CardTitle>
+                <CardTitle>Согласование участков</CardTitle>
                 <CardDescription>
-                  Полный цикл строительства торговых помещений с соблюдением всех требований федеральных сетей
+                  Подготовка и согласование земельных участков под строительство торговых объектов от 400 кв.м
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -81,9 +81,9 @@ export default function Index() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Icon name="Network" className="text-primary mb-4" size={48} />
-                <CardTitle>Подключение к сетям</CardTitle>
+                <CardTitle>Согласование помещений</CardTitle>
                 <CardDescription>
-                  Оформление документов и заключение долгосрочных договоров аренды с федеральными сетями
+                  Адаптация готовых торговых помещений от 400 кв.м под требования федеральных сетей
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -92,9 +92,9 @@ export default function Index() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Icon name="FileCheck" className="text-primary mb-4" size={48} />
-                <CardTitle>Анализ помещений</CardTitle>
+                <CardTitle>Строительство под ключ</CardTitle>
                 <CardDescription>
-                  Оценка существующих торговых помещений для заключения договоров аренды
+                  Полный цикл строительства торговых объектов от 400 кв.м с соблюдением стандартов сетей
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -104,7 +104,7 @@ export default function Index() {
                 <Icon name="Users" className="text-primary mb-4" size={48} />
                 <CardTitle>Работа с инвесторами</CardTitle>
                 <CardDescription>
-                  Помощь собственникам и инвесторам в реализации проектов с гарантированной доходностью
+                  Помощь собственникам участков и помещений от 400 кв.м в подключении к федеральным сетям
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -112,9 +112,9 @@ export default function Index() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Icon name="ShieldCheck" className="text-primary mb-4" size={48} />
-                <CardTitle>Гарантии качества</CardTitle>
+                <CardTitle>Долгосрочная аренда</CardTitle>
                 <CardDescription>
-                  Полное соответствие стандартам федеральных сетей и гарантия долгосрочного сотрудничества
+                  Заключение договоров аренды на 10-15 лет с федеральными сетями для объектов от 400 кв.м
                 </CardDescription>
               </CardHeader>
             </Card>
