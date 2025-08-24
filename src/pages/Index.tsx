@@ -92,9 +92,9 @@ export default function Index() {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <Icon name="FileCheck" className="text-primary mb-4" size={48} />
-                <CardTitle>Строительство под ключ</CardTitle>
+                <CardTitle>Строительство (дополнительно)</CardTitle>
                 <CardDescription>
-                  Полный цикл строительства торговых объектов от 400 кв.м с соблюдением стандартов сетей
+                  При необходимости — полный цикл строительства торговых объектов от 400 кв.м с соблюдением стандартов сетей
                 </CardDescription>
               </CardHeader>
             </Card>
