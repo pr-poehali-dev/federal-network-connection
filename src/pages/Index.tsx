@@ -16,6 +16,7 @@ export default function Index() {
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-foreground/80 hover:text-primary transition-colors font-medium">Услуги</a>
+            <a href="#franchise" className="text-foreground/80 hover:text-primary transition-colors font-medium">Франшиза</a>
             <a href="#advantages" className="text-foreground/80 hover:text-primary transition-colors font-medium">Преимущества</a>
             <a href="#contacts" className="text-foreground/80 hover:text-primary transition-colors font-medium">Контакты</a>
           </nav>
@@ -142,6 +143,85 @@ export default function Index() {
                 </CardDescription>
               </CardHeader>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Franchise Section */}
+      <section id="franchise" className="py-24 bg-gradient-to-br from-green-50 to-green-100">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              <div>
+                <div className="inline-flex items-center px-4 py-2 rounded-full bg-green-500/10 text-green-600 font-medium text-sm mb-6">
+                  <span className="mr-2">🛍</span>
+                  Франшиза "Магнит"
+                </div>
+                <h2 className="text-4xl lg:text-5xl font-bold text-secondary mb-6">
+                  Хочешь свой бизнес с «Магнит»?
+                </h2>
+                <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+                  Сейчас есть возможность открыть магазин под брендом крупнейшей сети России по модели обратной франшизы.
+                </p>
+                
+                <div className="space-y-4 mb-8">
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-500/10 rounded-lg p-1 mt-1">
+                      <Icon name="Check" className="text-green-600" size={16} />
+                    </div>
+                    <p className="text-lg">Форматы от мини-киоска до полноценного «Магнита у дома»</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-500/10 rounded-lg p-1 mt-1">
+                      <Icon name="Check" className="text-green-600" size={16} />
+                    </div>
+                    <p className="text-lg">Инвестиции от 2,5 млн руб.</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-500/10 rounded-lg p-1 mt-1">
+                      <Icon name="Check" className="text-green-600" size={16} />
+                    </div>
+                    <p className="text-lg">Агентское вознаграждение до 38%</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <div className="bg-green-500/10 rounded-lg p-1 mt-1">
+                      <Icon name="Check" className="text-green-600" size={16} />
+                    </div>
+                    <p className="text-lg">«Магнит» берёт на себя товарные риски, логистику и бренд</p>
+                  </div>
+                </div>
+                
+                <div className="bg-green-50 border border-green-200 rounded-2xl p-6 mb-8">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-2xl">📌</span>
+                    <div>
+                      <p className="font-semibold text-secondary mb-2">Мы помогаем оформить и заключить договор франшизы с «Магнит».</p>
+                      <p className="text-muted-foreground">Твой бизнес — с поддержкой сильного игрока.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <Button 
+                  size="lg" 
+                  className="bg-green-600 hover:bg-green-700 text-white shadow-lg font-semibold px-8 py-4"
+                  onClick={() => window.location.href = 'tel:+79002530077'}
+                >
+                  <Icon name="Phone" className="mr-2" size={20} />
+                  Узнать подробности франшизы
+                </Button>
+              </div>
+              
+              <div className="relative">
+                <div className="relative rounded-2xl overflow-hidden shadow-elegant">
+                  <img
+                    src="/img/81e9192e-1a6b-4fbe-bc8a-e6ff88915eff.jpg"
+                    alt="Современный магазин Магнит"
+                    className="w-full h-[500px] object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-green-600/20 to-transparent"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
