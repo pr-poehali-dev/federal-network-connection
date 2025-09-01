@@ -239,8 +239,8 @@ export default function Index() {
                 <div className="absolute -inset-4 bg-gradient-to-r from-gold-400/20 to-gold-600/20 rounded-3xl blur-2xl"></div>
                 <div className="relative rounded-3xl overflow-hidden shadow-premium border border-gold-400/30">
                   <img
-                    src="/img/81e9192e-1a6b-4fbe-bc8a-e6ff88915eff.jpg"
-                    alt="Современный магазин Магнит"
+                    src="/img/9bebd5bc-80d8-496c-9f76-ee56b76d2267.jpg"
+                    alt="Деловое согласование франшизы"
                     className="w-full h-[500px] object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -301,7 +301,7 @@ export default function Index() {
                 </div>
                 <CardTitle className="text-2xl font-bold text-gold-400 mb-4">Быстрые сроки</CardTitle>
                 <CardDescription className="text-lg text-gray-300 leading-relaxed">
-                  Согласование участков и помещений от 400 кв.м в течение 60-90 дней с момента подачи документов.
+                  Согласование участков и помещений от 400 кв.м в течение 5-10 дней с момента подачи документов.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -391,8 +391,8 @@ export default function Index() {
                     <p className="text-gray-300">Ответим в течение часа</p>
                   </div>
                 </div>
-                <a href="mailto:info@seti-pro.ru" className="text-2xl font-bold text-white hover:text-gold-400 transition-colors">
-                  info@seti-pro.ru
+                <a href="mailto:biznes0308@mail.ru" className="text-2xl font-bold text-white hover:text-gold-400 transition-colors">
+                  biznes0308@mail.ru
                 </a>
               </Card>
             </div>
