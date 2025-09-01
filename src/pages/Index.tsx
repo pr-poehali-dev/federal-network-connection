@@ -239,8 +239,8 @@ export default function Index() {
                 <div className="absolute -inset-4 bg-gradient-to-r from-gold-400/20 to-gold-600/20 rounded-3xl blur-2xl"></div>
                 <div className="relative rounded-3xl overflow-hidden shadow-premium border border-gold-400/30">
                   <img
-                    src="/img/9bebd5bc-80d8-496c-9f76-ee56b76d2267.jpg"
-                    alt="Деловое согласование франшизы"
+                    src="/img/5c18880c-20c4-4aec-ad08-6bb94d1592a1.jpg"
+                    alt="Деловые документы франшизы"
                     className="w-full h-[500px] object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
