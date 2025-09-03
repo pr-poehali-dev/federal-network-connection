@@ -491,10 +491,15 @@ export default function Index() {
             <h2 className="text-5xl lg:text-6xl font-serif font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 bg-clip-text text-transparent mb-8">
               Готовы обсудить ваш проект?
             </h2>
-            <p className="text-xl text-gray-300 mb-12 leading-relaxed">
+            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               Оставьте заявку или позвоните прямо сейчас. Консультация бесплатная.
-              Работаем с объектами от 400 кв.м по всей России.
+              Работаем с объектами от 400 кв.м.
             </p>
+            
+            <div className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-gold-400/10 to-gold-500/10 border border-gold-400/30 text-gold-400 font-medium text-lg mb-12">
+              <Icon name="MapPin" className="mr-2" size={20} />
+              География: Краснодарский край и Москва
+            </div>
             
             <div className="grid md:grid-cols-2 gap-10 mb-12">
               <Card className="bg-gradient-to-br from-gray-900 to-black border border-gold-400/20 p-8">
