@@ -67,8 +67,8 @@ export default function Index() {
               <div className="absolute -inset-4 bg-gradient-to-r from-gold-400/20 to-gold-600/20 rounded-3xl blur-2xl"></div>
               <div className="relative rounded-3xl overflow-hidden shadow-premium border border-gold-400/30">
                 <img
-                  src="/img/f77fc411-21e2-4e55-be65-750335f2157b.jpg"
-                  alt="Фасад торговой точки федеральной сети"
+                  src="/img/338e42f1-5087-44fe-abd0-809427009670.jpg"
+                  alt="Современное торговое помещение"
                   className="w-full h-[600px] object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
@@ -97,7 +97,7 @@ export default function Index() {
             </div>
             <h2 className="text-5xl lg:text-6xl font-serif font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 bg-clip-text text-transparent mb-8">Профессиональные решения</h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Полный спектр услуг по согласованию участков и помещений от 400 кв.м под федеральные торговые сети с гарантией результата
+              Полный спектр услуг по согласованию участков и помещений от 400 кв.м под федеральные торговые сети
             </p>
           </div>
           
@@ -323,7 +323,7 @@ export default function Index() {
             </div>
             <h2 className="text-5xl lg:text-6xl font-serif font-bold bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 bg-clip-text text-transparent mb-8">Почему выбирают нас</h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              Многолетний опыт работы с федеральными сетями и гарантированный результат
+              Профессиональная работа с федеральными сетями
             </p>
           </div>
 
@@ -333,9 +333,9 @@ export default function Index() {
                 <div className="w-20 h-20 bg-gradient-to-br from-gold-400/20 to-gold-600/20 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:from-gold-400/30 group-hover:to-gold-600/30 transition-all duration-300">
                   <Icon name="Trophy" className="text-gold-400" size={36} />
                 </div>
-                <CardTitle className="text-2xl font-bold text-gold-400 mb-4">Опыт более 10 лет</CardTitle>
+                <CardTitle className="text-2xl font-bold text-gold-400 mb-4">Профессиональный подход</CardTitle>
                 <CardDescription className="text-lg text-gray-300 leading-relaxed">
-                  Работаем с федеральными сетями с 2014 года. Знаем все требования и особенности согласований.
+                  Знаем все требования и особенности согласований с федеральными сетями.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -345,9 +345,9 @@ export default function Index() {
                 <div className="w-20 h-20 bg-gradient-to-br from-gold-400/20 to-gold-600/20 rounded-2xl flex items-center justify-center mx-auto mb-8 group-hover:from-gold-400/30 group-hover:to-gold-600/30 transition-all duration-300">
                   <Icon name="CheckCircle2" className="text-gold-400" size={36} />
                 </div>
-                <CardTitle className="text-2xl font-bold text-gold-400 mb-4">Гарантия результата</CardTitle>
+                <CardTitle className="text-2xl font-bold text-gold-400 mb-4">Комплексное решение</CardTitle>
                 <CardDescription className="text-lg text-gray-300 leading-relaxed">
-                  100% гарантия согласования участков и помещений от 400 кв.м или возврат средств.
+                  Полное сопровождение согласования участков и помещений от 400 кв.м на всех этапах.
                 </CardDescription>
               </CardHeader>
             </Card>
