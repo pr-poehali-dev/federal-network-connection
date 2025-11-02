@@ -6,35 +6,35 @@
 
 @layer base {
   :root {
-    --background: 0 0% 7%;
-    --foreground: 0 0% 98%;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 20%;
 
-    --card: 0 0% 10%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 20%;
 
-    --popover: 0 0% 10%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 20%;
 
-    --primary: 45 93% 65%;
-    --primary-foreground: 0 0% 7%;
+    --primary: 152 76% 46%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 45 93% 65%;
+    --secondary: 0 0% 25%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 70%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 45 93% 65%;
-    --accent-foreground: 0 0% 7%;
+    --accent: 152 76% 46%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 15%;
-    --ring: 45 93% 65%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 152 76% 46%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -102,7 +102,6 @@
     font-family: "Inter", system-ui, sans-serif;
     line-height: 1.6;
     letter-spacing: -0.01em;
-    background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
   }
 
   h1,
